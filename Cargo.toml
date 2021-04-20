@@ -1,0 +1,12 @@
+[package]
+name = "yew-todo-app"
+version = "0.1.0"
+authors = ["kotari <kotari0515@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+yew = {git = "https://github.com/yewstack/yew", rev = "3e133217"}
+yewtil = {git = "https://github.com/yewstack/yew", rev = "3e133217", package = "yewtil"}
+yew_services = {git = "https://github.com/yewstack/yew", rev = "3e133217", package = "yew-services"}
+serde = "1"
+serde_derive = "1"
